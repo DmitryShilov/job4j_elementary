@@ -25,6 +25,6 @@ public class MathCalculator {
     public static void main(String[] args) {
         System.out.println("Результат рассчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат рассчета равен: " + substractionDivision(15, 30));
-        System.out.println("Результат рассчета равен: " + sumMultiplySubstractionDivision (20, 40));
+        System.out.println("Результат рассчета равен: " + sumMultiplySubstractionDivision(20, 40));
     }
 }

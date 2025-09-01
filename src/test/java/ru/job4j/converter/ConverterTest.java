@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
-class ConverterTest {
+public class ConverterTest {
 
     @Test
     void whenConvert270RblThen3Euro() {
