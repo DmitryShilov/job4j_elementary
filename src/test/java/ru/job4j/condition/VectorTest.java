@@ -12,6 +12,7 @@ class VectorTest {
         String output = Vector.addVectors(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected);
     }
+
     @Test
     void whenVectorsMinus23And34ThenResult11() {
         int x1 = -2, y1 = -3, x2 = 3, y2 = 4;
@@ -19,6 +20,7 @@ class VectorTest {
         String output = Vector.addVectors(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected);
     }
+
     @Test
     void whenVectorsMinus23AndMinus34ThenResultMinus57() {
         int x1 = -2, y1 = -3, x2 = -3, y2 = -4;
