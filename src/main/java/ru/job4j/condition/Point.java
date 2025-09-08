@@ -15,7 +15,7 @@ public class Point {
         System.out.println("result (-1, -1) to (1, 1) " + result);
 
         result = distance(-2, -2, 2, 2);
-        System.out.println("result (-2, -2) to (2, 2) " +result);
+        System.out.println("result (-2, -2) to (2, 2) " + result);
 
     }
 }
