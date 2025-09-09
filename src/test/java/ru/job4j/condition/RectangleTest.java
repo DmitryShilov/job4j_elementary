@@ -11,7 +11,7 @@ class RectangleTest {
         double width = 4;
         double expected = 5.0;
         double output = Rectangle.diagonal(length, width);
-        assertThat(output). isEqualTo(expected, withPrecision(0.01));
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
     @Test
